@@ -1,0 +1,78 @@
+div.modal-background{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0.4turn, rgba(255, 255, 255, 0.91), rgba(0, 139, 139, 0.3));
+}
+
+div.modal-background div.window{
+    height: auto;
+    width: 320px;
+    margin-bottom: 200px;
+    padding: 10px;
+    background: linear-gradient(0.4turn, rgba(47, 79, 79, 0.75), rgba(0, 139, 139, 0.75));
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.modal-background div.window p{
+    margin: 0;
+    font-family: Consolas;
+    color: whitesmoke;
+    text-shadow: rgba(198, 198, 198, 0.3) 1px 1px;
+}
+
+div.modal-background div.window div.area{
+    width: 90%;
+    height: auto;
+    padding: 15px 2.5%;
+    margin: 7px 0;
+    background-color: rgba(245, 245, 245, 0.9);
+    border-radius: 5px;
+    font: 12px Consolas;
+}
+
+div.modal-background div.window button{
+    border-radius: 3px;
+    background: rgba(245, 245, 245, 0.81);
+    border: none;
+    padding: 3px 7px;
+}
+
+div.modal-background div.window button:hover{
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+div.modal-background div.window button:focus{
+    background: none;
+}
+
+div.modal-background div.window button span{
+    font-family: Consolas;
+}
+
+div.container{
+    padding: 25px 5px;
+}
+
+div.set-color{
+    margin-top: 10px;
+}
+
+div#inner-container{
+    margin-bottom: 10px;
+}
+
+div.item{
+    border: 1px solid black;
+    padding: 25px;
+    margin: 5px;
+}
