@@ -2,9 +2,10 @@ div.modal-background{
     display: none;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     height: 100%;
     width: 100%;
     background: linear-gradient(0.4turn, rgba(255, 255, 255, 0.91), rgba(0, 139, 139, 0.3));
