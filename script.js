@@ -67,7 +67,7 @@ document.getElementById('item-add').addEventListener('click',function () {
     let item = document.createElement('div');
     item.id = `item-${container.querySelectorAll('.item').length}`;
     item.className = 'item';
-    item.innerText = item.id;
+    item.innerText = '' + container.querySelectorAll('.item').length;
     container.append(item);
 });
 
